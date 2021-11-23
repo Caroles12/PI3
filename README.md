@@ -19,7 +19,7 @@ Nesse projeto **AINDA NÃO ESTÁ DEFINIDO QUAL NÍVEL SERÁ TRABALHADO**.
 # Tipos de abordagem
 Existem diversas abordagens para realizar essa análise de dados, nesse trabalho, se utiliza-ra o machine learning, a grande vantagem de utilizar esses dados é que não há dependência de idiomas, diferente da abordagem do tipo léxico. A principal desvantagem desse modelo, é a necessidade de treinar os dados.
 
-**Porque não utilizar o deep learning?** Deep learning é um modelo que vêm crescendo muito, entretando, uma das principais desvantagem é a necessidade de utilizar muitos dados para o treino, o que pode ser muito custoso, então, nesse primeiro momento, definiu-se a abordagem de machine learning.
+**Porque não utilizar o deep learning?** Deep learning é um modelo que vêm crescendo muito, entretanto, uma das principais desvantagem é a necessidade de utilizar muitos dados para o treino, o que pode ser muito custoso, então, nesse primeiro momento, definiu-se a abordagem de machine learning.
 
 # Fluxo de dados.
 Primeiramente, é preciso realizar uma filtragem dos dados, pois podem ocorrer a existência de caracteres especiais ou emojis, que não podem ser considerados em nossa análise. Após isso, é necessário realizar a mineração desses dados, em que iremos buscar padrões e regras, afim de obter quais são os registros negativos e por fim, o pós processamento do dado, objetivando obter quais foram as palavras negativas mais utilizadas sobre o produto.
