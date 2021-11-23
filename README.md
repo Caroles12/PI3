@@ -1,6 +1,7 @@
 # PI3
 
 # Sobre o projeto
+O objetivo desse trabalho é obter quais são os sentimentos em relação a um produto frente a uma classificação negativa, portanto, pretende-se extrair quais são os fatores citados quando uma avaliação de um produto é negativa, afim de oferecer essa solução para o fabricante.
 
 # O que é análise de sentimentos? 
 Análise de sentimentos ou mineração de opiniões refere-se ao uso de NLP (processamento de linguagem natural) cujo objetivo é identificar, extrair e quantificar a polaridade expressada nos dados.
