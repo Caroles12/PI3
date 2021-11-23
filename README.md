@@ -18,6 +18,7 @@ Nesse projeto **AINDA NÃO ESTÁ DEFINIDO QUAL NÍVEL SERÁ TRABALHADO**.
 
 # Tipos de abordagem
 Existem diversas abordagens para realizar essa análise de dados, nesse trabalho, se utiliza-ra o machine learning, a grande vantagem de utilizar esses dados é que não há dependência de idiomas, diferente da abordagem do tipo léxico. A principal desvantagem desse modelo, é a necessidade de treinar os dados.
+
 **Porque não utilizar o deep learning?** Deep learning é um modelo que vêm crescendo muito, entretando, uma das principais desvantagem é a necessidade de utilizar muitos dados para o treino, o que pode ser muito custoso, então, nesse primeiro momento, definiu-se a abordagem de machine learning.
 
 # Fluxo de dados.
