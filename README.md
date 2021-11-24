@@ -39,6 +39,8 @@ Para esse trabalho, pretende-se utilizar o Google Colab, muito utilizado em abor
 
 # ATUALIZAÇOES
 -> Resumo
+-> Justificativa.
+-> Diagrama
 -> Definiçao mais clara do problema.
 -> Definir melhor o tipo de abordagem
 -> Definir melhor qual tecnica de aprendizagem de maquina vamos utilizar.
