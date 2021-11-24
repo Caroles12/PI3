@@ -15,10 +15,12 @@ Nessa sentença, é dificil para a máquina compreender se o objetivo desse usu�
 Existem 3 níveis de análise de sentimento: nível de documento completo, de sentença ou de aspecto. No nível de documento, todo o texto pode ser classificado como positivo, neutro ou negativo. No nível de sentença, o texto é dividido em sentenças, que têm suas polaridades calculadas individualmente. Já no nível de aspecto, são extraídos dos textos
 várias entidades e aspectos, e depois é calculada a polaridade para cada um deles.
 Nesse projeto **AINDA NÃO ESTÁ DEFINIDO QUAL NÍVEL SERÁ TRABALHADO**.
+**JUSTIFICAR O PORQUE DA ESCOLHA DA SENTENÇA**.
 
 # Tipos de abordagem
 Existem diversas abordagens para realizar essa análise de dados, nesse trabalho, sera utilizado a machine learning, a grande vantagem de utilizar essa abordagem é que não há dependência de idiomas, diferente da abordagem do tipo léxico. A principal desvantagem desse modelo, é a necessidade de treinar os dados.
 
+**Esclarecer melhor a abordagem**
 **Porque não utilizar o deep learning?** Deep learning é um modelo que vêm crescendo muito, entretanto, uma das principais desvantagens é a necessidade de utilizar muitos dados para o treino, o que pode ser muito custoso, então, nesse primeiro momento, definiu-se a abordagem de machine learning.
 
 # Fluxo de dados.
