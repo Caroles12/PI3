@@ -34,3 +34,7 @@ https://www.kaggle.com/olistbr/brazilian-ecommerce
 
 # Plataforma de desenvolvimento.
 Para esse trabalho, pretende-se utilizar o Google Colab, muito utilizado em abordagens de machine learning.
+
+# ATUALIZAÇOES
+-> Resumo
+-> Definiçao mais clara do problema.
