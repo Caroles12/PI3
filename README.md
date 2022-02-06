@@ -38,13 +38,25 @@ https://www.kaggle.com/olistbr/brazilian-ecommerce
 Para esse trabalho, pretende-se utilizar o Google Colab, muito utilizado em abordagens de machine learning.
 
 # Informações sobre a base de dados
-Para compreender como os dados da base escolhida estão dispostos, foram realizados filtros para quantificar qual o tamanho da base, tamanho das informações que podem ser classificadas como positiva, negativa, etc. Após isso, temos os seguintes dados:
+Para compreender como os dados da base escolhida estão dispostos, foram realizados filtros para quantificar qual o tamanho da base, tamanho das informações que podem ser classificadas como positiva, negativa, etc. Dessa forma, definiu-se para esse filtro que classificações consideradas positivas são equivalentes a 5 e 4 estrelas, neutras 3 estrelas e negativas de 0 a 2 estrelas.  Após isso, temos os seguintes dados:
 
-```markdown
+| Tipos de classificação          | Tamanho dos dados |
+| ------------------------------- | ----------------- |
+| Todos os tipos de classificação | 99224             |
+| Positivas                       | 76470             |
+| Neutras                         | 8179              |
+| Negativas                       | 14575             |
+
+Entretanto, ao realizar uma avaliação mais detalhada da base de dados, percebe-se que muitas vezes os clientes deixam o número de estrelas equivalente a sua satisfação sobre o produto, mas não deixam um comentário, portanto, encontra-se *reviews* que não possuem comentários, assim, temos os seguintes dados:
+
 | Tipos de classificação | Tamanho dos dados |
-|--- |--- |
-| Todos os tipos de classificação | 99224 |
-| Positivas | 76470 |
-| Neutras| 8179 | 
-| Negativas| 14575 | 
-```
+| ---------------------- | ----------------- |
+| Positivas              | 26530             |
+| Neutras                | 3557              |
+| Negativas              | 10890             |
+
+Com base nisso, obteve-se uma *wordcloud*, que é uma nuvem com as palavras com maior recorrência em nossa base, desconsiderando qualquer tipo de avaliação sobre o sentimento do comentário, bem como artigos, preposições, etc.
+
+ ![Wordcloud de toda a base utilizada](D:\Users\carol\Documents\PI3\imagens\todasasclassificaçoes.png)
+
+A nuvem de palavras acima é de bastante relevância, pois nos indica um desafio em nosso trabalho: A maior parte dos dados refere-se a entrega do produto e não sobre uma característica do produto, isso possui um impacto relevante nesse trabalho, pois a quantidade de dados que será utilizada para treinamento e resultado final é reduzida, o que nos leva a crer que será preciso adicionar mais linhas que se refiram ao produto, afim de obter um resultado final mais satisfatório.
