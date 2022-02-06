@@ -38,4 +38,13 @@ https://www.kaggle.com/olistbr/brazilian-ecommerce
 Para esse trabalho, pretende-se utilizar o Google Colab, muito utilizado em abordagens de machine learning.
 
 # Informações sobre a base de dados
-Para compreender como os dados da base escolhida estão dispostos, foram realizados filtros para quantificar qual o tamanho da base, tamanho das informações que podem ser classificadas como positiva, negativa, etc.
+Para compreender como os dados da base escolhida estão dispostos, foram realizados filtros para quantificar qual o tamanho da base, tamanho das informações que podem ser classificadas como positiva, negativa, etc. Após isso, temos os seguintes dados:
+
+```markdown
+| Tipos de classificação | Tamanho dos dados |
+|--- |--- |
+| Todos os tipos de classificação | 99224 |
+| Positivas | 76470 |
+| Neutras| 8179 | 
+| Negativas| 14575 | 
+```
