@@ -37,10 +37,5 @@ https://www.kaggle.com/olistbr/brazilian-ecommerce
 # Plataforma de desenvolvimento.
 Para esse trabalho, pretende-se utilizar o Google Colab, muito utilizado em abordagens de machine learning.
 
-# ATUALIZAÇOES
--> Resumo
--> Justificativa.
--> Diagrama
--> Definiçao mais clara do problema.
--> Definir melhor o tipo de abordagem
--> Definir melhor qual tecnica de aprendizagem de maquina vamos utilizar.
+# Informações sobre a base de dados
+Para compreender como os dados da base escolhida estão dispostos, foram realizados filtros para quantificar qual o tamanho da base, tamanho das informações que podem ser classificadas como positiva, negativa, etc.
