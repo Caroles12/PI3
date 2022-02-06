@@ -57,6 +57,6 @@ Entretanto, ao realizar uma avaliação mais detalhada da base de dados, percebe
 
 Com base nisso, obteve-se uma *wordcloud*, que é uma nuvem com as palavras com maior recorrência em nossa base, desconsiderando qualquer tipo de avaliação sobre o sentimento do comentário, bem como artigos, preposições, etc.
 
- ![Wordcloud de toda a base utilizada](D:\Users\carol\Documents\PI3\imagens\todasasclassificaçoes.png)
+ ![Wordcloud de toda a base utilizada](https://github.com/Caroles12/PI3/blob/main/imagens/todasasclassifica%C3%A7oes.png)
 
 A nuvem de palavras acima é de bastante relevância, pois nos indica um desafio em nosso trabalho: A maior parte dos dados refere-se a entrega do produto e não sobre uma característica do produto, isso possui um impacto relevante nesse trabalho, pois a quantidade de dados que será utilizada para treinamento e resultado final é reduzida, o que nos leva a crer que será preciso adicionar mais linhas que se refiram ao produto, afim de obter um resultado final mais satisfatório.
