@@ -16,11 +16,11 @@ Análise de sentimento é o campo de estudo que analisa opiniões, sentimentos, 
 
 O  objetivo da análise de sentimento é extrair o real  significado de um texto sem isso ter de ser feito manualmente. Para que a análise de sentimento seja efetiva, um dos  maiores pilares é o aprendizado de máquina, do qual é utilizado  para reconhecer padrões e predizer resultados.
 
-# Requisitos técnicos para rodar o projeto.
+# Requisitos técnicos para rodar o projeto
 
 Esse projeto foi desenvolvido em Python utilizando o Jupyter, para rodar esse projeto, basta executar o arquivo "analise_de_reviews_de_produtos.ypnb" e fazer o upload das bases de dados disponíveis na pasta "base de dados", carregando os arquivos ".csv" disponíveis.
 
-# Base de dados utilizada para treinamento.
+# Base de dados utilizada para treinamento
 Foi utilizada uma base de dados já coletada para realizar o treinamento, disponibilizada pela Olist através do site do kaggle, em que o link pode ser encontrado abaixo. Além disso, para validar os resultados, criou-se uma nova base de dados com reviews sobre o produto Iphone, disponibilizados na web pelo site da Casas Bahia.
 
 Base disponível em:
